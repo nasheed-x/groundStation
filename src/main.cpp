@@ -74,9 +74,14 @@ void loop() {
         Serial.println((char *)buf);
         buf[len] = 0;
 
-        Serial.print("Signal Strength: ");
-        Serial.println(rf69.lastRssi(), DEC);
-        Serial.println("");
+        // Serial.print(":3\n");
+        // Serial.print("10000000000");
+        // Serial.print(",");
+        // Serial.println("10000000000");
+
+        // Serial.print("Signal Strength: ");
+        // Serial.println(rf69.lastRssi(), DEC);
+        // Serial.println("");
       }
     }
 
